@@ -1,0 +1,87 @@
+# GIT COMMIT GUIDE
+# این فایل رو نگه دار ولی به Git اضافه نکن (یا اضافه کن، مهم نیست)
+# دستورات زیر رو به ترتیب اجرا کن
+
+# ============================
+# STEP 1 — راه‌اندازی اولیه
+# ============================
+git init
+git branch -M main
+
+# ============================
+# STEP 2 — COMMIT 1: Project scaffolding
+# ============================
+git add README.md requirements.txt
+git commit -m "chore: initialize project structure and add README
+
+- Add README with project overview, setup instructions, usage examples
+- Add requirements.txt (anthropic>=0.40.0)
+- Define project: CLI-based Q&A bot for Arvan Engineering company docs"
+
+# ============================
+# STEP 3 — COMMIT 2: Knowledge base documents
+# ============================
+git add docs/
+git commit -m "docs: add company knowledge base (3 documents)
+
+- docs/faq.txt: 10 Q&A pairs covering services, tools, certs, contacts
+- docs/leave_policy.txt: Full HR leave policy (HR-POL-002, Rev 3)
+- docs/product_intro.txt: Company background, service lines, flagship projects
+All documents are for fictional company Arvan Engineering & Construction Co."
+
+# ============================
+# STEP 4 — COMMIT 3: Core bot implementation
+# ============================
+git add bot.py
+git commit -m "feat: implement core knowledge bot (bot.py)
+
+- load_documents(): auto-loads all .txt files from docs/
+- build_context(): concatenates docs into a single context string
+- build_system_prompt(): strict grounding rules to prevent hallucination
+- ask(): sends question + context to Claude API, returns answer
+- interactive_mode(): REPL loop for conversational usage
+- Single-question mode: python bot.py 'your question here'"
+
+# ============================
+# STEP 5 — COMMIT 4: Eval suite
+# ============================
+# (اگر eval رو داخل bot.py گذاشتی، این commit رو با commit قبلی merge کن)
+git add bot.py
+git commit -m "feat: add --eval mode with 7 test cases
+
+- run_evals(): executes all EVALS from EVALS.md
+- 6 positive tests (correct answer expected)
+- 1 negative test (out-of-scope refusal expected)  
+- Keyword-based scoring: pass if >=50% keywords matched
+- Prints per-case result and overall score summary"
+
+# ============================
+# STEP 6 — COMMIT 5: Agentic brain documentation
+# ============================
+git add agentic-brain/
+git commit -m "docs: add agentic-brain project management files
+
+- PROJECT_BRIEF.md: MVP scope, tech stack, what is and isn't included
+- AGENT_CONTEXT.md: architecture guide for any AI agent resuming work
+- MEMORY.md: decisions, mistakes, pivots, lessons learned
+- TASKS.md: completed work and future backlog
+- EVALS.md: 7 test cases with expected answers and results log"
+
+# ============================
+# STEP 7 — COMMIT 6 (اختیاری): هر تغییری که بعداً دادی
+# ============================
+# مثلاً اگر system prompt رو بهبود دادی:
+# git add bot.py
+# git commit -m "fix: strengthen system prompt to improve out-of-scope refusal
+#
+# EVAL-007 occasionally returned partial answers mentioning unrelated facts.
+# Added explicit instruction: 'Do not offer related facts if question is out of scope.'
+# Resolves ~90% of EVAL-007 failures observed in run 1."
+
+# ============================
+# STEP 8 — Push به GitHub
+# ============================
+# یک repo جدید در GitHub بساز (بدون README، بدون .gitignore)
+# بعد:
+git remote add origin https://github.com/YOUR_USERNAME/mini-knowledge-bot.git
+git push -u origin main
