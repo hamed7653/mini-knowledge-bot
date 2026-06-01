@@ -1,0 +1,32 @@
+FREQUENTLY ASKED QUESTIONS — ARVAN ENGINEERING & CONSTRUCTION CO.
+======================================================================
+
+Q: What services does Arvan Engineering provide?
+A: Arvan Engineering is a full-scope EPC (Engineering, Procurement, and Construction) contractor specializing in industrial infrastructure, oil & gas facilities, and power plant projects. We offer feasibility studies, FEED, detailed engineering, procurement management, construction supervision, and commissioning support.
+
+Q: How can I request a project proposal or quotation?
+A: Send your Request for Proposal (RFP) or project scope documents to proposals@arvan-eng.com. Our Business Development team will respond within 5 working days with a preliminary qualification assessment. For urgent inquiries, call +98-21-8800-XXXX.
+
+Q: What is Arvan's project management methodology?
+A: We follow PMBOK-aligned project management practices integrated with FIDIC contract frameworks. All projects use Primavera P6 for scheduling, earned value management (EVM) for performance tracking, and our internal document control system (EDMS) for deliverable management.
+
+Q: Does Arvan hold any certifications?
+A: Yes. Arvan Engineering holds ISO 9001:2015 (Quality), ISO 14001:2015 (Environment), and ISO 45001:2018 (Health & Safety) certifications. We are also a Grade-1 registered contractor with Iran's Plan and Budget Organization (PBO).
+
+Q: How long does a typical EPC project take?
+A: Project duration depends on scope and complexity. Small industrial packages typically run 12–18 months. Mid-size oil & gas facilities range from 24–36 months. Large-scale power or petrochemical projects can extend to 48–60 months or more.
+
+Q: Who are Arvan's typical clients?
+A: Our clients include National Iranian Oil Company (NIOC), Ministry of Energy, private sector industrial groups, and regional infrastructure developers. We also support international joint ventures in the Middle East and Central Asia.
+
+Q: How does Arvan handle project changes and variation orders?
+A: All scope changes follow our formal Change Management Procedure (CMP-003). A Variation Order Request (VOR) must be submitted in writing, evaluated by the Project Control team for schedule and cost impact, and approved by the Project Manager and Client before execution.
+
+Q: What software tools does Arvan use for engineering and project control?
+A: Engineering: PDMS/E3D, CAESAR II, ETAP, AutoCAD, and AVEVA. Project Control: Primavera P6, Microsoft Project, and custom EVM dashboards built in Excel/Power BI. Document Control: Aconex and SharePoint-based EDMS.
+
+Q: How can employees access IT support?
+A: Log a ticket at helpdesk.arvan-eng.com or call extension 1100. Critical issues (system outages, VPN failures) can be escalated to the IT Manager directly at extension 1101. Support hours are Saturday–Wednesday, 08:00–17:00.
+
+Q: Where is Arvan Engineering headquartered?
+A: Our head office is located in Tehran, Valiasr Square, Arvan Tower, 12th Floor. We have regional offices in Ahvaz (for southern oil & gas projects), Tabriz (for northwest industrial projects), and a liaison office in Dubai.
